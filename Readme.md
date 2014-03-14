@@ -20,11 +20,11 @@ in.html
 </html>
 ```
 script.js
-```
+```javascript
 console.log('foo');
 ```
 and
-```javascipt
+```javascript
 var emb = require('emb-script');
 emb('in.html', function(err, out) {
   console.log(out);
