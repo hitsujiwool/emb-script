@@ -1,0 +1,31 @@
+{
+  "name": "emb-script",
+  "version": "0.0.1",
+  "description": "embed external script to HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hitsujiwool/emb-script"
+  },
+  "keywords": [
+    "script",
+    "html",
+    "embed"
+  ],
+  "author": "Ryo Murayama <utatanenohibi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hitsujiwool/emb-script/issues"
+  },
+  "homepage": "https://github.com/hitsujiwool/emb-script",
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "dependencies": {
+    "cheerio": "~0.13.1",
+    "async": "~0.2.10"
+  }
+}
